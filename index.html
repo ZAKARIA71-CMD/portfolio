@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#080b13">
+    <meta name="description" content="Développeur Web Full Stack formé en Développement Digital, spécialisé en applications web modernes, Front-End, Back-End, API REST et microservices.">
+    <title>Zakaria El Farouki — Développeur Web Full-Stack</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+</head>
+<body>
+    <div class="site-shell">
+        <header class="site-header">
+            <a class="brand" href="#home" aria-label="Accueil — Zakaria El Farouki" data-i18n-aria="header.homeLabel">
+                <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+                <span>Zakaria <strong>El Farouki</strong></span>
+            </a>
+            <button class="menu-toggle" type="button" aria-label="Ouvrir la navigation" aria-expanded="false" aria-controls="primary-nav">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="primary-nav" id="primary-nav" aria-label="Navigation principale" data-i18n-aria="header.navigation">
+                <a class="nav-link active" href="#home" data-i18n="nav.home">Accueil</a>
+                <a class="nav-link" href="#about" data-i18n="nav.profile">Profil</a>
+                <a class="nav-link" href="#skills" data-i18n="nav.skills">Compétences</a>
+                <a class="nav-link" href="#projects" data-i18n="nav.projects">Projets</a>
+                <a class="nav-link" href="#experience" data-i18n="nav.journey">Parcours</a>
+                <a class="nav-link" href="#contact" data-i18n="nav.contact">Contact</a>
+            </nav>
+            <button class="theme-toggle" type="button" aria-label="Activer le mode clair" aria-pressed="false" title="Activer le mode clair">
+                <span class="theme-icon" aria-hidden="true">☀</span>
+            </button>
+            <div class="language-switch" role="group" aria-label="Choisir la langue">
+                <button type="button" data-language="fr" aria-pressed="true" aria-label="Français">FR</button>
+                <button type="button" data-language="ar" aria-pressed="false" aria-label="العربية">AR</button>
+                <button type="button" data-language="en" aria-pressed="false" aria-label="English">EN</button>
+            </div>
+            <a class="button button-outline download-button" href="CV_Zakaria_EL_FAROUKI_dev.pdf" aria-label="Télécharger mon CV" data-i18n-aria="header.downloadLabel" download>
+                <span class="download-label" data-i18n="header.download">Télécharger le CV</span><span aria-hidden="true">⇩</span>
+            </a>
+        </header>
+
+        <main>
+            <section class="hero section-wrap" id="home">
+                <div class="hero-copy">
+                    <p class="eyebrow"><span aria-hidden="true">👋</span> <span data-i18n="hero.greeting">Bonjour, je suis</span></p>
+                    <h1 aria-label="Zakaria El Farouki" data-i18n-aria="name.full"><span data-i18n="name.first" aria-hidden="true">Zakaria</span> <span data-i18n="name.last" aria-hidden="true">El Farouki</span></h1>
+                    <p class="hero-role" data-i18n="hero.role">Développeur Web Full-Stack</p>
+                    <p class="hero-intro" data-i18n="hero.intro" data-i18n-aria="hero.intro">Je suis un développeur Web Full Stack passionné par la création d'applications web modernes, performantes et intuitives. Formé en Développement Digital, spécialité Web Full Stack, je maîtrise plusieurs technologies telles que HTML, CSS, JavaScript, React.js, PHP, Laravel, Node.js et MongoDB.
+
+J'aime concevoir des solutions digitales complètes, du développement Front-End à la gestion Back-End, en passant par la conception et l'intégration des bases de données et des API REST.
+
+À travers mes différents projets, j'ai développé des compétences en architecture MVC, développement d'applications RESTful, authentification sécurisée et architecture microservices.
+
+Curieux, autonome et motivé, je cherche constamment à apprendre de nouvelles technologies et à relever de nouveaux défis pour transformer des idées en applications concrètes.</p>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#contact"><span data-i18n="hero.contact">Me contacter</span> <span aria-hidden="true">→</span></a>
+                        <a class="button button-quiet" href="#projects"><span data-i18n="hero.projects">Voir mes projets</span> <span aria-hidden="true">▦</span></a>
+                    </div>
+                   
+                </div>
+            </section>
+
+            <section class="stats-bar section-wrap" aria-label="Repères de mon parcours" data-i18n-aria="stats.label">
+                <div class="stat-item"><span class="stat-icon code-icon" aria-hidden="true">&lt;/&gt;</span><div><strong>2026</strong><span data-i18n="stats.diploma">spécialisé en développement web</span></div></div>
+                <div class="stat-item"><span class="stat-icon green-icon" aria-hidden="true">✓</span><div><strong>1</strong><span data-i18n="stats.internship">Stage en entreprise</span></div></div>
+                <div class="stat-item"><span class="stat-icon orange-icon" aria-hidden="true"><i class="fa-solid fa-diagram-project"></i></span><div><strong>3</strong><span data-i18n="stats.projects">Projets réalisés</span></div></div>
+                <div class="stat-item"><span class="stat-icon pink-icon" aria-hidden="true"><i class="fa-notdog-duo fa-solid fa-code"></i></span><div><strong> + 10 </strong><span data-i18n="stats.technologies">Technologies</span></div></div>
+            </section>
+
+            <section class="about-skills section-wrap section-grid" id="about">
+                <div class="about-copy">
+                    <p class="section-kicker" data-i18n="profile.kicker">Mon parcours</p>
+                    <h2 data-i18n="profile.title">Profil professionnel</h2>
+                    <p data-i18n="profile.summary">Développeur Web Full-Stack diplômé en Développement Digital, spécialisé en React.js, Laravel, Node.js et API REST.</p>
+                    <p data-i18n="profile.detail">Lors de mon stage, j’ai contribué à une plateforme de gestion de matériel industriel avec authentification sécurisée. Je souhaite aujourd’hui rejoindre une équipe pour participer à des projets web concrets et renforcer mes compétences.</p>
+                    <a class="button button-quiet small-button" href="#experience"><span data-i18n="profile.more">Découvrir mon parcours</span> <span aria-hidden="true">→</span></a>
+                </div>
+                <div class="skills-panel" id="skills">
+                    <p class="section-kicker" data-i18n="skills.kicker">Technologies et outils</p>
+                    <h2 data-i18n="skills.title">Compétences techniques</h2>
+                    <div class="skills-grid">
+                        <div class="skill"><h3 class="skill-heading" data-i18n="skills.languages">Langages</h3><div class="skill-tags"><span>C</span><span>Python</span><span>Java</span><span>PHP</span><span>JavaScript</span></div></div>
+                        <div class="skill"><h3 class="skill-heading" data-i18n="skills.frontend">Frontend</h3><div class="skill-tags"><span>HTML5</span><span>CSS3</span><span>React.js</span><span>Redux Toolkit</span><span>Bootstrap</span><span>Framer Motion</span></div></div>
+                        <div class="skill"><h3 class="skill-heading" data-i18n="skills.backend">Backend</h3><div class="skill-tags"><span>PHP</span><span>Laravel</span><span>Node.js</span><span>Express.js</span></div></div>
+                        <div class="skill"><h3 class="skill-heading" data-i18n="skills.architecture">API & architecture</h3><div class="skill-tags"><span>API REST</span><span>MVC</span><span>Microservices</span><span>JWT</span><span>Laravel Sanctum</span></div></div>
+                        <div class="skill"><h3 class="skill-heading" data-i18n="skills.tools">Données, DevOps & outils</h3><div class="skill-tags"><span>MySQL</span><span>MongoDB</span><span>Docker</span><span>Docker Compose</span><span>Git</span><span>GitHub</span><span>VS Code</span><span>Postman</span></div></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="projects-section section-wrap" id="projects">
+                <div class="section-heading">
+                    <div><p class="section-kicker" data-i18n="projects.kicker">Réalisations académiques</p><h2 data-i18n="projects.title">Projets réalisés</h2></div>
+
+                </div>
+                <div class="project-grid">
+                    <article class="project-card">
+                        <div class="project-image dashboard-preview" aria-hidden="true">
+                            <div class="mock-sidebar"><b>◧</b><i></i><i></i><i></i><i></i></div><div class="mock-content"><div class="mock-top"><b data-i18n="projects.mockReservations">Réservations</b><i></i></div><div class="mock-counters"><i></i><i></i><i></i></div><div class="mock-chart"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div>
+                        </div>
+                        <div class="project-info"><div><h3 data-i18n="projects.medicalTitle">Réservation médicale</h3><p>React, Redux Toolkit, Node.js, Express, MongoDB</p></div></div>
+                        <p class="project-description" data-i18n="projects.medicalDescription">Application de réservation organisée en microservices, conteneurisée avec Docker Compose.</p>
+                        <p class="project-tech" data-i18n="projects.medicalTech">JWT · Rôles Patient, Médecin, Administrateur</p>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-image task-preview" aria-hidden="true">
+                            <div class="task-window"><div class="task-sidebar"><b>◈ <span data-i18n="projects.maintenance">Maintenance</span></b><i></i><i></i><i></i><i></i></div><div class="task-board"><b data-i18n="projects.equipment">Matériel industriel</b><div class="task-columns"><i><b></b><em></em><em></em></i><i><b></b><em></em><em></em></i><i><b></b><em></em><em></em></i></div></div></div>
+                        </div>
+                        <div class="project-info"><div><h3 data-i18n="projects.industryTitle">Gestion de matériel industriel</h3><p>React, Laravel, MySQL</p></div></div>
+                        <p class="project-description" data-i18n="projects.industryDescription">Suivi des équipements, des pannes, des statuts et des opérations de maintenance.</p>
+                        <p class="project-tech">Sanctum · JWT · Framer Motion · Docker</p>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-image shop-preview" aria-hidden="true">
+                            <div class="shop-nav"><span data-i18n="projects.catalogue">Catalogue</span><small><span data-i18n="projects.home">Accueil</span> &nbsp; <span data-i18n="projects.products">Produits</span> &nbsp; <span data-i18n="projects.cart">Panier</span></small></div><div class="shop-hero"><span data-i18n="projects.shopMock" data-i18n-html>CATALOGUE<br>DE<br><b>PRODUITS.</b></span><i></i></div><div class="shop-products"><i></i><i></i><i></i></div>
+                        </div>
+                        <div class="project-info"><div><h3 data-i18n="projects.ecommerceTitle">Plateforme e-commerce</h3><p data-i18n="projects.ecommerceStack">PHP natif, MySQL, architecture MVC</p></div></div>
+                        <p class="project-description" data-i18n="projects.ecommerceDescription">Site marchand avec catalogue, panier et commandes, organisé selon le modèle MVC.</p>
+                        <p class="project-tech">PHP · MySQL · MVC</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="resume-section section-wrap" id="experience">
+                <div class="resume-experience">
+                    <div class="section-heading compact-heading"><div><p class="section-kicker" data-i18n="experience.kicker">Expérience professionnelle</p><h2 data-i18n="experience.title">Mon expérience</h2></div></div>
+                    <article class="resume-card">
+                        <span class="resume-date" data-i18n="experience.date">Avril – Mai 2026</span>
+                        <h3 data-i18n="experience.internship">Stage pratique en entreprise</h3>
+                        <p class="resume-role" data-i18n="experience.role">Développeur Web Full-Stack</p>
+                        <ul>
+                            <li data-i18n="experience.task1">Développement d’une plateforme de gestion de matériel industriel, de pannes et de maintenance.</li>
+                            <li data-i18n="experience.task2">Création de l’interface avec React.js et Framer Motion, et d’API REST avec Laravel.</li>
+                            <li data-i18n="experience.task3">Mise en place de l’authentification avec Laravel Sanctum et JWT.</li>
+                            <li data-i18n="experience.task4">Travail en équipe selon une organisation Agile / Kanban.</li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="resume-education">
+                    <div class="section-heading compact-heading"><div><p class="section-kicker" data-i18n="education.kicker">Études et savoir-être</p><h2 data-i18n="education.title">Formation & qualités</h2></div></div>
+                    <div class="resume-card education-card">
+                        <div class="education-item"><span class="resume-date">2024 – 2026</span><h3 data-i18n="education.degree">Technicien spécialisé en Développement Digital</h3><p class="resume-role" data-i18n="education.specialty">Option Web Full-Stack · ISTA NTIC Safi</p></div>
+                        <div class="education-item"><span class="resume-date">2024</span><h3 data-i18n="education.bac">Baccalauréat</h3><p class="resume-role" data-i18n="education.bacSpecialty">Sciences et technologie mécanique</p></div>
+                        <div class="resume-tags"><span data-i18n="qualities.analysis">Esprit d’analyse</span><span data-i18n="qualities.solving">Résolution de problèmes</span><span data-i18n="qualities.team">Travail en équipe</span><span data-i18n="qualities.autonomy">Autonomie</span><span data-i18n="qualities.adaptability">Adaptabilité</span><span data-i18n="qualities.initiative">Initiative</span><span data-i18n="qualities.learning">Apprentissage continu</span><span data-i18n="qualities.organization">Organisation</span></div>
+                        <p class="language-line"><strong data-i18n="education.languages">Langues :</strong> <span data-i18n="education.languageLevels">Français courant · Anglais intermédiaire · Arabe</span></p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer section-wrap" id="contact">
+            <div class="contact-top">
+                <div class="contact-prompt"><span class="footer-icon" aria-hidden="true">✉</span><div><h2 data-i18n="contact.title">Échangeons sur votre projet</h2><p data-i18n="contact.availability" data-i18n-html>À la recherche d’un premier emploi en développement web.<br>Disponible pour rejoindre votre équipe.</p></div></div>
+                <a class="contact-detail" href="mailto:zakariaelfarouki0@gmail.com"><span data-i18n="contact.email">Email</span>zakariaelfarouki0@gmail.com</a>
+                <a class="contact-detail" href="tel:+212773115407"><span data-i18n="contact.phone">Téléphone</span>0773115407</a>
+                <a class="button button-primary contact-button" href="mailto:zakariaelfarouki0@gmail.com"><span data-i18n="contact.cta">Me contacter</span> <span aria-hidden="true">↗</span></a>
+            </div>
+            <section class="contact-form-panel" aria-labelledby="contact-form-title">
+                <h3 id="contact-form-title" data-i18n="contact.formTitle">Laissez vos coordonnées</h3>
+                <p class="contact-form-note" data-i18n="contact.formNote">Indiquez votre nom et prénom, puis au moins un moyen de vous joindre. Votre application e-mail s’ouvrira pour préparer le message.</p>
+                <form  action="https://formsubmit.co/zakariafrk71@gmail.com" id="contact-form">
+                    <div class="contact-field">
+                        <label for="contact-first-name" data-i18n="contact.firstName">Prénom</label>
+                        <input id="contact-first-name" name="firstName" type="text" autocomplete="given-name" required>
+                    </div>
+                    <div class="contact-field">
+                        <label for="contact-last-name" data-i18n="contact.lastName">Nom</label>
+                        <input id="contact-last-name" name="lastName" type="text" autocomplete="family-name" required>
+                    </div>
+                    <div class="contact-field">
+                        <label for="contact-email" data-i18n="contact.formEmail">E-mail</label>
+                        <input id="contact-email" name="email" type="email" autocomplete="email" inputmode="email" dir="ltr">
+                    </div>
+                    <div class="contact-field">
+                        <label for="contact-phone" data-i18n="contact.formPhone">Téléphone</label>
+                        <input id="contact-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" dir="ltr">
+                    </div>
+                    <button class="button button-primary contact-form-submit" type="submit" data-i18n="contact.submit">Préparer l’e-mail</button>
+                </form>
+            </section>
+            <div class="footer-bottom">
+                <a class="brand" href="#home" aria-label="Accueil — Zakaria El Farouki" data-i18n-aria="header.homeLabel"><span class="brand-mark" aria-hidden="true">&lt;/&gt;</span><span>Zakaria <strong>El Farouki</strong></span></a>
+                <p>© <span id="year"></span> <span data-i18n="footer.rights">Tous droits réservés.</span></p>
+                <nav aria-label="Navigation de pied de page" data-i18n-aria="footer.navigation"><a href="#home" data-i18n="nav.home">Accueil</a><a href="#about" data-i18n="nav.profile">Profil</a><a href="#skills" data-i18n="nav.skills">Compétences</a><a href="#projects" data-i18n="nav.projects">Projets</a><a href="#experience" data-i18n="nav.journey">Parcours</a><a href="#contact" data-i18n="nav.contact">Contact</a></nav>
+                <a class="back-to-top" href="#home" aria-label="Retour en haut" data-i18n-aria="footer.top">↑</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
